@@ -1,0 +1,39 @@
+{
+    "name": "mingyoung/dingtalk",
+    "description": "EasyDingTalk, Alibaba Dingtalk SDK for PHP",
+    "keywords": [
+        "dingtalk",
+        "dingding",
+        "easydingtalk",
+        "sdk",
+        "钉钉"
+    ],
+    "homepage": "https://easydingtalk.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mingyoung",
+            "email": "mingyoungcheung@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "http-client/core": "*",
+        "http-client/cache": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyDingTalk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyDingTalk\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
