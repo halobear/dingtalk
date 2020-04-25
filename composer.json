@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": "^7.2",
-        "http-client/core": "*",
-        "http-client/cache": "*"
+        "http-client/core": "^1.0",
+        "http-client/cache": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5 || ^9.0"
