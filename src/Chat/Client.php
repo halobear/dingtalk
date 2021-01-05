@@ -78,7 +78,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($chatId)
+    public function getInfo($chatId)
     {
         return $this->client->get('chat/get', ['chatid' => $chatId]);
     }

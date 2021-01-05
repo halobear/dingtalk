@@ -34,7 +34,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($params)
+    public function getInfo($params)
     {
         return $this->client->postJson('topapi/checkin/record/get', $params);
     }

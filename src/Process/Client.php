@@ -46,7 +46,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($id)
+    public function getInfo($id)
     {
         return $this->client->postJson('topapi/processinstance/get', ['process_instance_id' => $id]);
     }

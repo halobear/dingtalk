@@ -48,7 +48,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($userId)
+    public function getInfo($userId)
     {
         return $this->client->postJson('topapi/extcontact/get', ['user_id' => $userId]);
     }

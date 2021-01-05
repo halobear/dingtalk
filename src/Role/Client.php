@@ -61,7 +61,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($roleId)
+    public function getInfo($roleId)
     {
         return $this->client->postJson('topapi/role/getrole', compact('roleId'));
     }

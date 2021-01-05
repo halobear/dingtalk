@@ -24,7 +24,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get()
+    public function getInfo()
     {
         if ($value = $this->getCache()->get($this->cacheFor())) {
             return $value;

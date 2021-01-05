@@ -51,7 +51,7 @@ class Client extends BaseClient
      *
      * @return mixed
      */
-    public function get($id, $lang = null)
+    public function getInfo($id, $lang = null)
     {
         return $this->client->get('department/get', compact('id', 'lang'));
     }
